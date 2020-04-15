@@ -1,0 +1,1 @@
+[2020-04-15 14-52-52] Nette\InvalidArgumentException: Malformed or unsupported URI 'http:///'. in C:\Users\NTB-HOME\Documents\sandbox\vendor\nette\http\src\Http\Url.php:95  @  CLI (PID: 8584): C:\Users\NTB-HOME\Documents\sandbox\www\index.php  @@  exception--2020-04-15--14-52--b91481e765.html

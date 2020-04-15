@@ -1,0 +1,1391 @@
+<!DOCTYPE html><!-- "' --></textarea></script></style></pre></xmp></a></iframe></noembed></noframes></noscript></option></select></template></title></table>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+	<meta name="generator" content="Tracy by Nette Framework">
+
+	<title>Nette\InvalidArgumentException: Malformed or unsupported URI &#039;http:///&#039;.</title>
+	
+	<style type="text/css" class="tracy-debug">
+	/** * This file is part of the Tracy (https://tracy.nette.org) */ #tracy-bs { font: 9pt/1.5 Verdana, sans-serif; background: white; color: #333; position: absolute; z-index: 20000; left: 0; top: 0; width: 100%; text-align: left; } #tracy-bs * { font: inherit; color: inherit; background: transparent; border: none; margin: 0; padding: 0; text-align: inherit; text-indent: 0; } #tracy-bs *:before, #tracy-bs *:after { all: unset; } #tracy-bs b { font-weight: bold; } #tracy-bs i { font-style: italic; } #tracy-bs a { text-decoration: none; color: #328ADC; padding: 2px 4px; margin: -2px -4px; } #tracy-bs a:hover, #tracy-bs a:focus { color: #085AA3; } #tracy-bs-toggle { position: absolute; right: .5em; top: .5em; text-decoration: none; background: #CD1818; color: white !important; padding: 3px; } #tracy-bs-error { background: #CD1818; color: white; font-size: 13pt; } #tracy-bs-error a { color: white !important; opacity: 0; font-size: .7em; border-bottom: none !important; } #tracy-bs-error:hover a { opacity: .6; } #tracy-bs-error a:hover { opacity: 1; } #tracy-bs-error i { color: #ffefa1; font-style: normal; } #tracy-bs h1 { font-size: 15pt; font-weight: normal; text-shadow: 1px 1px 2px rgba(0, 0, 0, .3); margin: .7em 0; } #tracy-bs h1 span { white-space: pre-wrap; } #tracy-bs h2 { font-size: 14pt; margin: .6em 0; } #tracy-bs h3 { font-size: 10pt; font-weight: bold; margin: 1em 0; padding: 0; } #tracy-bs p, #tracy-bs pre { margin: .8em 0 } #tracy-bs pre, #tracy-bs code, #tracy-bs table { font: 9pt/1.5 Consolas, monospace !important; } #tracy-bs pre, #tracy-bs table { background: #FDF5CE; padding: .4em .7em; border: 1px dotted silver; overflow: auto; } #tracy-bs table pre { padding: 0; margin: 0; border: none; } #tracy-bs table { border-collapse: collapse; width: 100%; } #tracy-bs td, #tracy-bs th { vertical-align: top; text-align: left; padding: 2px 6px; border: 1px solid #e6dfbf; } #tracy-bs th { font-weight: bold; } #tracy-bs tr > :first-child { width: 20%; } #tracy-bs tr:nth-child(2n), #tracy-bs tr:nth-child(2n) pre { background-color: #F7F0CB; } #tracy-bs ol { margin: 1em 0; padding-left: 2.5em; } #tracy-bs ul { font-size: 7pt; padding: 2em 3em; margin: 1em 0 0; color: #777; background: #F6F5F3; border-top: 1px solid #DDD; list-style: none; } #tracy-bs-logo a { position: absolute; bottom: 0; right: 0; width: 100px; height: 50px; background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAAAUBAMAAAD/1DctAAAAMFBMVEWupZzj39rEvbTy8O3X0sz9/PvGwLu8tavQysHq6OS0rKP5+Pbd2dT29fPMxbzPx8DKErMJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACGUlEQVQoFX3TQWgTQRQA0MWLIJJDYehBTykhG5ERTx56K1u8eEhCYtomE7x5L4iLh0ViF7egewuFFqSIYE6hIHsIYQ6CQSg9CDKn4QsNCRlB59C74J/ZNHW1+An5+bOPyf6/s46oz2P+A0yIeZZ2ieEHi6TOnLKTxvWq+b52mxlVO3xnM1s7xLX1504XQH65OnW2dBqn7cCkYsFsfYsWpyY/2salmFTpEyzeR8zosYqMdiPDXdyU52K1wgEa/SjGpdEwUAxqvRfckQCDOyFearsEHe2grvkh/cFAHKvdtI3lcVceKQIOFpv+FOZaNPQBwJZLPp+hfrvT5JZXaUFsR8zqQc9qSgAharkfS5M/5F6nGJJAtXq/eLr3ucZpHccSxOOIPaQhtHohpCH2Xu6rLmQ0djnr4/+J3C6v+AW8/XWYxwYNdlhWj/P5fPSTQwVr0T9lGxdaBCqErNZaqYnEwbkjEB3NasGF3lPdrHa1nnxNOMgj0+neePUPjd2v/qVvUv29ifvc19huQ48qwXShy/9o8o3OSk0cs37mOFd0Ydgvsf/oZEnPVtggfd66lORn9mDyyzXU13SRtH2L6aR5T/snGAcZPfAXz5J1YlJWBEuxdMYqQecpBrlM49xAbmqyHA+xlA1FxBtqT2xmJoNXZlIt74ZBLeJ9ZGDqByNI7p543idzJ23vXEv7IgnsxiS+eNtwNbFdLq7+Bi4wQ0I4SVb9AAAAAElFTkSuQmCC') no-repeat; opacity: .6; padding: 0; margin: 0; } #tracy-bs-logo a:hover, #tracy-bs-logo a:focus { opacity: 1; transition: opacity 0.1s; } #tracy-bs div.panel { padding: 1px 25px; } #tracy-bs div.inner { background: #F4F3F1; padding: .1em 1em 1em; border-radius: 8px; } #tracy-bs .outer { overflow: auto; } /* source code */ #tracy-bs pre.code > div { min-width: 100%; float: left; white-space: pre; } #tracy-bs .highlight { background: #CD1818; color: white; font-weight: bold; font-style: normal; display: block; padding: 0 .4em; margin: 0 -.4em; } #tracy-bs .line { color: #9F9C7F; font-weight: normal; font-style: normal; } #tracy-bs pre:hover span[title] { border-bottom: 1px solid rgba(0, 0, 0, 0.2); } #tracy-bs a[href^=editor\:] { color: inherit; border-bottom: 1px dotted rgba(0, 0, 0, .3); } #tracy-bs span[data-tracy-href] { border-bottom: 1px dotted rgba(0, 0, 0, .3); } /* toggle */ html.tracy-js #tracy-bs .tracy-collapsed { display: none; } html.tracy-js #tracy-bs .tracy-toggle.tracy-collapsed { display: inline; } #tracy-bs .tracy-toggle { cursor: pointer; -webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select: none; user-select: none; } #tracy-bs .tracy-toggle:after { content: "\A0\25BC"; opacity: .4; } #tracy-bs .tracy-toggle.tracy-collapsed:after { content: "\A0\25BA"; } /* dump */ #tracy-bs .tracy-dump-array, #tracy-bs .tracy-dump-object { color: #C22; } #tracy-bs .tracy-dump-string { color: #35D; } #tracy-bs .tracy-dump-number { color: #090; } #tracy-bs .tracy-dump-whitespace { color: #0003; } #tracy-bs .tracy-dump-null, #tracy-bs .tracy-dump-bool { color: #850; } #tracy-bs .tracy-dump-visibility, #tracy-bs .tracy-dump-hash { font-size: 85%; color: #998; } #tracy-bs .tracy-dump-indent { display: none; } #tracy-bs pre.tracy-dump div { padding-left: 3ex; } #tracy-bs pre.tracy-dump div div { border-left: 1px solid rgba(0, 0, 0, .1); margin-left: .5ex; } #tracy-bs .caused { float: right; padding: .3em .6em; background: #df8075; border-radius: 0 0 0 8px; white-space: nowrap; } #tracy-bs .caused a { color: white; } 	</style>
+	<script>document.documentElement.className+=' tracy-js'</script>
+</head>
+
+
+<body>
+<div id="tracy-bs">
+	<a id="tracy-bs-toggle" href="#" class="tracy-toggle"></a>
+	<div>
+		<div id="tracy-bs-error" class="panel">
+			<p>Nette\InvalidArgumentException</p>
+
+			<h1><span>Malformed or unsupported URI <i>'http:///'</i>.</span>
+			</h1>
+		</div>
+
+		
+
+				
+			
+
+			
+
+						
+			<div class="panel">
+			<h2><a data-tracy-ref="^+" class="tracy-toggle tracy-collapsed">Source file</a></h2>
+
+			<div class="tracy-collapsed inner">
+				<p><b>File:</b> <a href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Chttp%5Csrc%5CHttp%5CUrl.php&amp;line=95&amp;search=&amp;replace=" title="C:\Users\NTB-HOME\Documents\sandbox\vendor\nette\http\src\Http\Url.php:95">...\vendor\nette\http\src\Http\<b>Url.php</b>:95</a></p>
+				<pre data-tracy-href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Chttp%5Csrc%5CHttp%5CUrl.php&amp;line=95&amp;search=&amp;replace=" class='code'><div><code><span style="color: #06B"><span style="color: #D24; font-weight: bold"><span class='line'>85:</span>    
+<span class='line'>86:</span>        </span><span style="color: #998; font-style: italic">/**
+<span class='line'>87:</span>         * @param  string|self
+<span class='line'>88:</span>         * @throws Nette\InvalidArgumentException if URL is malformed
+<span class='line'>89:</span>         */
+<span class='line'>90:</span>        </span><span style="color: #D24; font-weight: bold">public function </span><span style="color: #000">__construct</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$url </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">null</span><span style="color: #D24; font-weight: bold">)
+<span class='line'>91:</span>        {
+<span class='line'>92:</span>            if (</span><span style="color: #000">is_string</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$url</span><span style="color: #D24; font-weight: bold">)) {
+<span class='line'>93:</span>                </span><span style="color: #000">$p </span><span style="color: #D24; font-weight: bold">= @</span><span style="color: #000">parse_url</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$url</span><span style="color: #D24; font-weight: bold">); </span><span style="color: #998; font-style: italic">// @ - is escalated to exception
+<span class='line'>94:</span>                </span><span style="color: #D24; font-weight: bold">if (</span><span style="color: #000">$p </span><span style="color: #D24; font-weight: bold">=== </span><span style="color: #000">false</span><span style="color: #D24; font-weight: bold">) {
+<span class='highlight'>95:                    throw new Nette\InvalidArgumentException("Malformed or unsupported URI '$url'.");
+</span></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #080"></span><span style="color: #000"></span><span style="color: #080"></span><span style="color: #D24; font-weight: bold"><span class='line'>96:</span>                }
+<span class='line'>97:</span>    
+<span class='line'>98:</span>                </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">scheme </span><span style="color: #D24; font-weight: bold">= isset(</span><span style="color: #000">$p</span><span style="color: #D24; font-weight: bold">[</span><span style="color: #080">'scheme'</span><span style="color: #D24; font-weight: bold">]) ? </span><span style="color: #000">$p</span><span style="color: #D24; font-weight: bold">[</span><span style="color: #080">'scheme'</span><span style="color: #D24; font-weight: bold">] : </span><span style="color: #080">''</span><span style="color: #D24; font-weight: bold">;
+<span class='line'>99:</span>                </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">port </span><span style="color: #D24; font-weight: bold">= isset(</span><span style="color: #000">$p</span><span style="color: #D24; font-weight: bold">[</span><span style="color: #080">'port'</span><span style="color: #D24; font-weight: bold">]) ? </span><span style="color: #000">$p</span><span style="color: #D24; font-weight: bold">[</span><span style="color: #080">'port'</span><span style="color: #D24; font-weight: bold">] : </span><span style="color: #000">null</span><span style="color: #D24; font-weight: bold">;
+</span></span></code></div></pre>			</div></div>
+
+
+									<div class="panel">
+				<h2><a data-tracy-ref="^+" class="tracy-toggle">Call stack</a></h2>
+
+				<div class="inner">
+				<ol>
+										<li><p>
+
+											<a href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Chttp%5Csrc%5CHttp%5CUrl.php&amp;line=432&amp;search=&amp;replace=" title="C:\Users\NTB-HOME\Documents\sandbox\vendor\nette\http\src\Http\Url.php:432">...\vendor\nette\http\src\Http\<b>Url.php</b>:432</a>					
+					<a data-tracy-ref="^p + .file" class="tracy-toggle tracy-collapsed">source</a>&nbsp; 
+					Nette\Http\Url-&gt;__construct(<a data-tracy-ref="^p + .args" class="tracy-toggle tracy-collapsed">arguments</a>)
+					</p>
+
+											<div class="tracy-collapsed file"><pre data-tracy-href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Chttp%5Csrc%5CHttp%5CUrl.php&amp;line=432&amp;search=&amp;replace=" class='code'><div><code><span style="color: #06B"><span style="color: #D24; font-weight: bold"><span class='line'>422:</span>        }
+<span class='line'>423:</span>    
+<span class='line'>424:</span>    
+<span class='line'>425:</span>        </span><span style="color: #998; font-style: italic">/**
+<span class='line'>426:</span>         * URL comparison.
+<span class='line'>427:</span>         * @param  string|self
+<span class='line'>428:</span>         * @return bool
+<span class='line'>429:</span>         */
+<span class='line'>430:</span>        </span><span style="color: #D24; font-weight: bold">public function </span><span style="color: #000">isEqual</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$url</span><span style="color: #D24; font-weight: bold">)
+<span class='line'>431:</span>        {
+<span class='highlight'>432:            $url = new self($url);
+</span></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"><span class='line'>433:</span>            </span><span style="color: #000">$query </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">$url</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">query</span><span style="color: #D24; font-weight: bold">;
+<span class='line'>434:</span>            </span><span style="color: #000">ksort</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$query</span><span style="color: #D24; font-weight: bold">);
+<span class='line'>435:</span>            </span><span style="color: #000">$query2 </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">query</span><span style="color: #D24; font-weight: bold">;
+<span class='line'>436:</span>            </span><span style="color: #000">ksort</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$query2</span><span style="color: #D24; font-weight: bold">);
+</span></span></code></div></pre></div>
+					
+					
+											<div class="tracy-collapsed outer args">
+						<table>
+						<tr><th>$url</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"http:///"</span> (8)
+</pre>
+</td></tr>
+						</table>
+						</div>
+										</li>
+										<li><p>
+
+											<a href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CUI%5CPresenter.php&amp;line=738&amp;search=&amp;replace=" title="C:\Users\NTB-HOME\Documents\sandbox\vendor\nette\application\src\Application\UI\Presenter.php:738">...\src\Application\UI\<b>Presenter.php</b>:738</a>					
+					<a data-tracy-ref="^p + .file" class="tracy-toggle tracy-collapsed">source</a>&nbsp; 
+					Nette\Http\Url-&gt;isEqual(<a data-tracy-ref="^p + .args" class="tracy-toggle tracy-collapsed">arguments</a>)
+					</p>
+
+											<div class="tracy-collapsed file"><pre data-tracy-href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CUI%5CPresenter.php&amp;line=738&amp;search=&amp;replace=" class='code'><div><code><span style="color: #06B"><span style="color: #D24; font-weight: bold"><span class='line'>728:</span>            if (!</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">isAjax</span><span style="color: #D24; font-weight: bold">() &amp;&amp; (</span><span style="color: #000">$request</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">isMethod</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #080">'get'</span><span style="color: #D24; font-weight: bold">) || </span><span style="color: #000">$request</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">isMethod</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #080">'head'</span><span style="color: #D24; font-weight: bold">))) {
+<span class='line'>729:</span>                try {
+<span class='line'>730:</span>                    </span><span style="color: #000">$url </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">createRequest</span><span style="color: #D24; font-weight: bold">(
+<span class='line'>731:</span>                        </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">,
+<span class='line'>732:</span>                        </span><span style="color: #000">$destination </span><span style="color: #D24; font-weight: bold">?: </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">action</span><span style="color: #D24; font-weight: bold">,
+<span class='line'>733:</span>                        </span><span style="color: #000">$args </span><span style="color: #D24; font-weight: bold">+ </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">getGlobalState</span><span style="color: #D24; font-weight: bold">() + </span><span style="color: #000">$request</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">getParameters</span><span style="color: #D24; font-weight: bold">(),
+<span class='line'>734:</span>                        </span><span style="color: #080">'redirectX'
+<span class='line'>735:</span>                    </span><span style="color: #D24; font-weight: bold">);
+<span class='line'>736:</span>                } catch (</span><span style="color: #000">InvalidLinkException $e</span><span style="color: #D24; font-weight: bold">) {
+<span class='line'>737:</span>                }
+<span class='highlight'>738:                if (isset($url) &amp;&amp; !$this-&gt;httpRequest-&gt;getUrl()-&gt;isEqual($url)) {
+</span></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"><span class='line'>739:</span>                    </span><span style="color: #000">$code </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">$request</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">hasFlag</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$request</span><span style="color: #D24; font-weight: bold">::</span><span style="color: #000">VARYING</span><span style="color: #D24; font-weight: bold">) ? </span><span style="color: #000">Http</span><span style="color: #D24; font-weight: bold">\</span><span style="color: #000">IResponse</span><span style="color: #D24; font-weight: bold">::</span><span style="color: #000">S302_FOUND </span><span style="color: #D24; font-weight: bold">: </span><span style="color: #000">Http</span><span style="color: #D24; font-weight: bold">\</span><span style="color: #000">IResponse</span><span style="color: #D24; font-weight: bold">::</span><span style="color: #000">S301_MOVED_PERMANENTLY</span><span style="color: #D24; font-weight: bold">;
+<span class='line'>740:</span>                    </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">sendResponse</span><span style="color: #D24; font-weight: bold">(new </span><span style="color: #000">Responses</span><span style="color: #D24; font-weight: bold">\</span><span style="color: #000">RedirectResponse</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$url</span><span style="color: #D24; font-weight: bold">, </span><span style="color: #000">$code</span><span style="color: #D24; font-weight: bold">));
+<span class='line'>741:</span>                }
+<span class='line'>742:</span>            }
+</span></span></code></div></pre></div>
+					
+					
+											<div class="tracy-collapsed outer args">
+						<table>
+						<tr><th>$url</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"http:///"</span> (8)
+</pre>
+</td></tr>
+						</table>
+						</div>
+										</li>
+										<li><p>
+
+											<a href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CUI%5CPresenter.php&amp;line=201&amp;search=&amp;replace=" title="C:\Users\NTB-HOME\Documents\sandbox\vendor\nette\application\src\Application\UI\Presenter.php:201">...\src\Application\UI\<b>Presenter.php</b>:201</a>					
+					<a data-tracy-ref="^p + .file" class="tracy-toggle tracy-collapsed">source</a>&nbsp; 
+					Nette\Application\UI\Presenter-&gt;canonicalize()
+					</p>
+
+											<div class="tracy-collapsed file"><pre data-tracy-href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CUI%5CPresenter.php&amp;line=201&amp;search=&amp;replace=" class='code'><div><code><span style="color: #06B"><span style="color: #D24; font-weight: bold"><span class='line'>191:</span>                }
+<span class='line'>192:</span>                </span><span style="color: #998; font-style: italic">// calls $this-&gt;action&lt;Action&gt;()
+<span class='line'>193:</span>                </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">tryCall</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">formatActionMethod</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">action</span><span style="color: #D24; font-weight: bold">), </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">params</span><span style="color: #D24; font-weight: bold">);
+<span class='line'>194:</span>    
+<span class='line'>195:</span>                </span><span style="color: #998; font-style: italic">// autoload components
+<span class='line'>196:</span>                </span><span style="color: #D24; font-weight: bold">foreach (</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">globalParams </span><span style="color: #D24; font-weight: bold">as </span><span style="color: #000">$id </span><span style="color: #D24; font-weight: bold">=&gt; </span><span style="color: #000">$foo</span><span style="color: #D24; font-weight: bold">) {
+<span class='line'>197:</span>                    </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">getComponent</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$id</span><span style="color: #D24; font-weight: bold">, </span><span style="color: #000">false</span><span style="color: #D24; font-weight: bold">);
+<span class='line'>198:</span>                }
+<span class='line'>199:</span>    
+<span class='line'>200:</span>                if (</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">autoCanonicalize</span><span style="color: #D24; font-weight: bold">) {
+<span class='highlight'>201:                    $this-&gt;canonicalize();
+</span></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"><span class='line'>202:</span>                }
+<span class='line'>203:</span>                if (</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">httpRequest</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">isMethod</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #080">'head'</span><span style="color: #D24; font-weight: bold">)) {
+<span class='line'>204:</span>                    </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">terminate</span><span style="color: #D24; font-weight: bold">();
+<span class='line'>205:</span>                }
+</span></span></code></div></pre></div>
+					
+					
+										</li>
+										<li><p>
+
+											<a href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CApplication.php&amp;line=145&amp;search=&amp;replace=" title="C:\Users\NTB-HOME\Documents\sandbox\vendor\nette\application\src\Application\Application.php:145">...\src\Application\<b>Application.php</b>:145</a>					
+					<a data-tracy-ref="^p + .file" class="tracy-toggle tracy-collapsed">source</a>&nbsp; 
+					Nette\Application\UI\Presenter-&gt;run(<a data-tracy-ref="^p + .args" class="tracy-toggle tracy-collapsed">arguments</a>)
+					</p>
+
+											<div class="tracy-collapsed file"><pre data-tracy-href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CApplication.php&amp;line=145&amp;search=&amp;replace=" class='code'><div><code><span style="color: #06B"><span style="color: #D24; font-weight: bold"><span class='line'>135:</span>            if (!</span><span style="color: #000">$request</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">isMethod</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$request</span><span style="color: #D24; font-weight: bold">::</span><span style="color: #000">FORWARD</span><span style="color: #D24; font-weight: bold">) &amp;&amp; !</span><span style="color: #000">strcasecmp</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$request</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">getPresenterName</span><span style="color: #D24; font-weight: bold">(), </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">errorPresenter</span><span style="color: #D24; font-weight: bold">)) {
+<span class='line'>136:</span>                throw new </span><span style="color: #000">BadRequestException</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #080">'Invalid request. Presenter is not achievable.'</span><span style="color: #D24; font-weight: bold">);
+<span class='line'>137:</span>            }
+<span class='line'>138:</span>    
+<span class='line'>139:</span>            try {
+<span class='line'>140:</span>                </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">presenter </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">presenterFactory</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">createPresenter</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$request</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">getPresenterName</span><span style="color: #D24; font-weight: bold">());
+<span class='line'>141:</span>            } catch (</span><span style="color: #000">InvalidPresenterException $e</span><span style="color: #D24; font-weight: bold">) {
+<span class='line'>142:</span>                throw </span><span style="color: #000">count</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">requests</span><span style="color: #D24; font-weight: bold">) &gt; </span><span style="color: #000">1 </span><span style="color: #D24; font-weight: bold">? </span><span style="color: #000">$e </span><span style="color: #D24; font-weight: bold">: new </span><span style="color: #000">BadRequestException</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$e</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">getMessage</span><span style="color: #D24; font-weight: bold">(), </span><span style="color: #000">0</span><span style="color: #D24; font-weight: bold">, </span><span style="color: #000">$e</span><span style="color: #D24; font-weight: bold">);
+<span class='line'>143:</span>            }
+<span class='line'>144:</span>            </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">onPresenter</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">, </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">presenter</span><span style="color: #D24; font-weight: bold">);
+<span class='highlight'>145:            $response = $this-&gt;presenter-&gt;run(clone $request);
+</span></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"><span class='line'>146:</span>    
+<span class='line'>147:</span>            if (</span><span style="color: #000">$response </span><span style="color: #D24; font-weight: bold">instanceof </span><span style="color: #000">Responses</span><span style="color: #D24; font-weight: bold">\</span><span style="color: #000">ForwardResponse</span><span style="color: #D24; font-weight: bold">) {
+<span class='line'>148:</span>                </span><span style="color: #000">$request </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">$response</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">getRequest</span><span style="color: #D24; font-weight: bold">();
+<span class='line'>149:</span>                goto </span><span style="color: #000">process</span><span style="color: #D24; font-weight: bold">;
+</span></span></code></div></pre></div>
+					
+					
+											<div class="tracy-collapsed outer args">
+						<table>
+						<tr><th>$request</th><td><pre class="tracy-dump" data-tracy-dump='{"object":"01"}'></pre>
+</td></tr>
+						</table>
+						</div>
+										</li>
+										<li><p>
+
+											<a href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CApplication.php&amp;line=83&amp;search=&amp;replace=" title="C:\Users\NTB-HOME\Documents\sandbox\vendor\nette\application\src\Application\Application.php:83">...\src\Application\<b>Application.php</b>:83</a>					
+					<a data-tracy-ref="^p + .file" class="tracy-toggle tracy-collapsed">source</a>&nbsp; 
+					Nette\Application\Application-&gt;processRequest(<a data-tracy-ref="^p + .args" class="tracy-toggle tracy-collapsed">arguments</a>)
+					</p>
+
+											<div class="tracy-collapsed file"><pre data-tracy-href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CApplication.php&amp;line=83&amp;search=&amp;replace=" class='code'><div><code><span style="color: #06B"><span style="color: #D24; font-weight: bold"><span class='line'>73:</span>    
+<span class='line'>74:</span>    
+<span class='line'>75:</span>        </span><span style="color: #998; font-style: italic">/**
+<span class='line'>76:</span>         * Dispatch a HTTP request to a front controller.
+<span class='line'>77:</span>         * @return void
+<span class='line'>78:</span>         */
+<span class='line'>79:</span>        </span><span style="color: #D24; font-weight: bold">public function </span><span style="color: #000">run</span><span style="color: #D24; font-weight: bold">()
+<span class='line'>80:</span>        {
+<span class='line'>81:</span>            try {
+<span class='line'>82:</span>                </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">onStartup</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">);
+<span class='highlight'>83:                $this-&gt;processRequest($this-&gt;createInitialRequest());
+</span></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"><span class='line'>84:</span>                </span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">onShutdown</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">);
+<span class='line'>85:</span>    
+<span class='line'>86:</span>            } catch (\</span><span style="color: #000">Exception $e</span><span style="color: #D24; font-weight: bold">) {
+<span class='line'>87:</span>            } catch (\</span><span style="color: #000">Throwable $e</span><span style="color: #D24; font-weight: bold">) {
+</span></span></code></div></pre></div>
+					
+					
+											<div class="tracy-collapsed outer args">
+						<table>
+						<tr><th>$request</th><td><pre class="tracy-dump" data-tracy-dump='{"object":"02"}'></pre>
+</td></tr>
+						</table>
+						</div>
+										</li>
+										<li><p>
+
+											<a href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cwww%5Cindex.php&amp;line=6&amp;search=&amp;replace=" title="C:\Users\NTB-HOME\Documents\sandbox\www\index.php:6">...\NTB-HOME\Documents\sandbox\www\<b>index.php</b>:6</a>					
+					<a data-tracy-ref="^p + .file" class="tracy-toggle">source</a>&nbsp; 
+					Nette\Application\Application-&gt;run()
+					</p>
+
+											<div class="file"><pre data-tracy-href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cwww%5Cindex.php&amp;line=6&amp;search=&amp;replace=" class='code'><div><code><span style="color: #06B"><span class='line'>1:</span>    <span style="color: #000">&lt;?php
+<span class='line'>2:</span>    
+<span class='line'>3:</span>    $container </span><span style="color: #D24; font-weight: bold">= require </span><span style="color: #000">__DIR__ </span><span style="color: #D24; font-weight: bold">. </span><span style="color: #080">'/../app/bootstrap.php'</span><span style="color: #D24; font-weight: bold">;
+<span class='line'>4:</span>    
+<span class='line'>5:</span>    </span><span style="color: #000">$container</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">getByType</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">Nette</span><span style="color: #D24; font-weight: bold">\</span><span style="color: #000">Application</span><span style="color: #D24; font-weight: bold">\</span><span style="color: #000">Application</span><span style="color: #D24; font-weight: bold">::class)
+<span class='highlight'>6:        -&gt;run();
+</span></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"><span class='line'>7:</span>    </span>
+</span></code></div></pre></div>
+					
+					
+										</li>
+									</ol>
+			</div></div>
+			
+
+			
+				
+
+		
+
+				<div class="panel">
+		<h2><a data-tracy-ref="^+" class="tracy-toggle tracy-collapsed">Last muted error</a></h2>
+		<div class="tracy-collapsed inner">
+
+		<h3>Deprecated: The each() function is deprecated. This message will be suppressed on further calls</h3>
+					<p><a href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Chttp%5Csrc%5CHttp%5CRequestFactory.php&amp;line=115&amp;search=&amp;replace=" title="C:\Users\NTB-HOME\Documents\sandbox\vendor\nette\http\src\Http\RequestFactory.php:115">...\nette\http\src\Http\<b>RequestFactory.php</b>:115</a></p>
+			<div><pre data-tracy-href="editor://open/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Chttp%5Csrc%5CHttp%5CRequestFactory.php&amp;line=115&amp;search=&amp;replace=" class='code'><div><code><span style="color: #06B"><span style="color: #998; font-style: italic"><span class='line'>105:</span>            </span><span style="color: #000">$useFilter </span><span style="color: #D24; font-weight: bold">= (!</span><span style="color: #000">in_array</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">ini_get</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #080">'filter.default'</span><span style="color: #D24; font-weight: bold">), [</span><span style="color: #080">''</span><span style="color: #D24; font-weight: bold">, </span><span style="color: #080">'unsafe_raw'</span><span style="color: #D24; font-weight: bold">], </span><span style="color: #000">true</span><span style="color: #D24; font-weight: bold">) || </span><span style="color: #000">ini_get</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #080">'filter.default_flags'</span><span style="color: #D24; font-weight: bold">));
+<span class='line'>106:</span>    
+<span class='line'>107:</span>            </span><span style="color: #000">$query </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">$url</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">getQueryParameters</span><span style="color: #D24; font-weight: bold">();
+<span class='line'>108:</span>            </span><span style="color: #000">$post </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">$useFilter </span><span style="color: #D24; font-weight: bold">? </span><span style="color: #000">filter_input_array</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">INPUT_POST</span><span style="color: #D24; font-weight: bold">, </span><span style="color: #000">FILTER_UNSAFE_RAW</span><span style="color: #D24; font-weight: bold">) : (empty(</span><span style="color: #000">$_POST</span><span style="color: #D24; font-weight: bold">) ? [] : </span><span style="color: #000">$_POST</span><span style="color: #D24; font-weight: bold">);
+<span class='line'>109:</span>            </span><span style="color: #000">$cookies </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #000">$useFilter </span><span style="color: #D24; font-weight: bold">? </span><span style="color: #000">filter_input_array</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">INPUT_COOKIE</span><span style="color: #D24; font-weight: bold">, </span><span style="color: #000">FILTER_UNSAFE_RAW</span><span style="color: #D24; font-weight: bold">) : (empty(</span><span style="color: #000">$_COOKIE</span><span style="color: #D24; font-weight: bold">) ? [] : </span><span style="color: #000">$_COOKIE</span><span style="color: #D24; font-weight: bold">);
+<span class='line'>110:</span>    
+<span class='line'>111:</span>            </span><span style="color: #998; font-style: italic">// remove invalid characters
+<span class='line'>112:</span>            </span><span style="color: #000">$reChars </span><span style="color: #D24; font-weight: bold">= </span><span style="color: #080">'#^[' </span><span style="color: #D24; font-weight: bold">. </span><span style="color: #000">self</span><span style="color: #D24; font-weight: bold">::</span><span style="color: #000">CHARS </span><span style="color: #D24; font-weight: bold">. </span><span style="color: #080">']*+\z#u'</span><span style="color: #D24; font-weight: bold">;
+<span class='line'>113:</span>            if (!</span><span style="color: #000">$this</span><span style="color: #D24; font-weight: bold">-&gt;</span><span style="color: #000">binary</span><span style="color: #D24; font-weight: bold">) {
+<span class='line'>114:</span>                </span><span style="color: #000">$list </span><span style="color: #D24; font-weight: bold">= [&amp;</span><span style="color: #000">$query</span><span style="color: #D24; font-weight: bold">, &amp;</span><span style="color: #000">$post</span><span style="color: #D24; font-weight: bold">, &amp;</span><span style="color: #000">$cookies</span><span style="color: #D24; font-weight: bold">];
+<span class='highlight'>115:                while (list($key, $val) = @each($list)) { // @ intentionally, deprecated in PHP 7.2
+</span></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #000"></span><span style="color: #D24; font-weight: bold"></span><span style="color: #998; font-style: italic"><span class='line'>116:</span>                    </span><span style="color: #D24; font-weight: bold">foreach (</span><span style="color: #000">$val </span><span style="color: #D24; font-weight: bold">as </span><span style="color: #000">$k </span><span style="color: #D24; font-weight: bold">=&gt; </span><span style="color: #000">$v</span><span style="color: #D24; font-weight: bold">) {
+<span class='line'>117:</span>                        if (</span><span style="color: #000">is_string</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$k</span><span style="color: #D24; font-weight: bold">) &amp;&amp; (!</span><span style="color: #000">preg_match</span><span style="color: #D24; font-weight: bold">(</span><span style="color: #000">$reChars</span><span style="color: #D24; font-weight: bold">, </span><span style="color: #000">$k</span><span style="color: #D24; font-weight: bold">) || </span><span style="color: #000">preg_last_error</span><span style="color: #D24; font-weight: bold">())) {
+<span class='line'>118:</span>                            unset(</span><span style="color: #000">$list</span><span style="color: #D24; font-weight: bold">[</span><span style="color: #000">$key</span><span style="color: #D24; font-weight: bold">][</span><span style="color: #000">$k</span><span style="color: #D24; font-weight: bold">]);
+<span class='line'>119:</span>    
+</span></span></code></div></pre></div>
+		
+		</div></div>
+		
+
+										<div class="panel">
+			<h2><a data-tracy-ref="^+" class="tracy-toggle tracy-collapsed">Nette Application</a></h2>
+
+			<div class="inner tracy-collapsed">
+			<h3>Requests</h3><pre class="tracy-dump" data-tracy-dump='[[0,{"object":"02"}],[1,{"object":"03"}]]'></pre>
+<h3>Presenter</h3><pre class="tracy-dump" data-tracy-dump='{"object":"05"}'></pre>
+		</div></div>
+		
+
+		<div class="panel">
+		<h2><a data-tracy-ref="^+" class="tracy-toggle tracy-collapsed">Environment</a></h2>
+
+		<div class="tracy-collapsed inner">
+			<h3><a data-tracy-ref="^+" class="tracy-toggle">$_SERVER</a></h3>
+			<div class="outer">
+			<table>
+			<tr><th>ALLUSERSPROFILE</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\ProgramData"</span> (14)
+</pre>
+</td></tr>
+<tr><th>APPDATA</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME\AppData\Roaming"</span> (33)
+</pre>
+</td></tr>
+<tr><th>CommonProgramFiles</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Program Files\Common Files"</span> (29)
+</pre>
+</td></tr>
+<tr><th>CommonProgramFiles(x86)</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Program Files (x86)\Common Files"</span> (35)
+</pre>
+</td></tr>
+<tr><th>CommonProgramW6432</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Program Files\Common Files"</span> (29)
+</pre>
+</td></tr>
+<tr><th>COMPUTERNAME</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"DESKTOP-CT2VIMB"</span> (15)
+</pre>
+</td></tr>
+<tr><th>ComSpec</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Windows\system32\cmd.exe"</span> (27)
+</pre>
+</td></tr>
+<tr><th>DriverData</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Windows\System32\Drivers\DriverData"</span> (38)
+</pre>
+</td></tr>
+<tr><th>ESET_OPTIONS</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"                                                                                                                                                       ... "</span> (511)
+</pre>
+</td></tr>
+<tr><th>FPS_BROWSER_APP_PROFILE_STRING</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"Internet Explorer"</span> (17)
+</pre>
+</td></tr>
+<tr><th>FPS_BROWSER_USER_PROFILE_STRING</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"Default"</span> (7)
+</pre>
+</td></tr>
+<tr><th>HOMEDRIVE</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:"</span> (2)
+</pre>
+</td></tr>
+<tr><th>HOMEPATH</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"\Users\NTB-HOME"</span> (15)
+</pre>
+</td></tr>
+<tr><th>JAVA_HOME</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Program Files\Java\jdk-14"</span> (28)
+</pre>
+</td></tr>
+<tr><th>LOCALAPPDATA</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME\AppData\Local"</span> (31)
+</pre>
+</td></tr>
+<tr><th>LOGONSERVER</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"\\DESKTOP-CT2VIMB"</span> (17)
+</pre>
+</td></tr>
+<tr><th>NB_EXEC_EXTEXECUTION_PROCESS_UUID</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"90ebeca8-567f-4b7d-93c3-85fdf01d67a1"</span> (36)
+</pre>
+</td></tr>
+<tr><th>NUMBER_OF_PROCESSORS</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"4"</span>
+</pre>
+</td></tr>
+<tr><th>OneDrive</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME\OneDrive"</span> (26)
+</pre>
+</td></tr>
+<tr><th>OS</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"Windows_NT"</span> (10)
+</pre>
+</td></tr>
+<tr><th>Path</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Windows\system32;C:\Windo ... "</span> (382)
+</pre>
+</td></tr>
+<tr><th>PATHEXT</th><td><pre class="tracy-dump"><span class="tracy-dump-string">".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"</span> (53)
+</pre>
+</td></tr>
+<tr><th>PROCESSOR_ARCHITECTURE</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"AMD64"</span> (5)
+</pre>
+</td></tr>
+<tr><th>PROCESSOR_IDENTIFIER</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"Intel64 Family 6 Model 37 Stepping 2, GenuineIntel"</span> (50)
+</pre>
+</td></tr>
+<tr><th>PROCESSOR_LEVEL</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"6"</span>
+</pre>
+</td></tr>
+<tr><th>PROCESSOR_REVISION</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"2502"</span> (4)
+</pre>
+</td></tr>
+<tr><th>ProgramData</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\ProgramData"</span> (14)
+</pre>
+</td></tr>
+<tr><th>ProgramFiles</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Program Files"</span> (16)
+</pre>
+</td></tr>
+<tr><th>ProgramFiles(x86)</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Program Files (x86)"</span> (22)
+</pre>
+</td></tr>
+<tr><th>ProgramW6432</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Program Files"</span> (16)
+</pre>
+</td></tr>
+<tr><th>PSModulePath</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"</span> (93)
+</pre>
+</td></tr>
+<tr><th>PUBLIC</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\Public"</span> (15)
+</pre>
+</td></tr>
+<tr><th>SESSIONNAME</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"Console"</span> (7)
+</pre>
+</td></tr>
+<tr><th>SystemDrive</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:"</span> (2)
+</pre>
+</td></tr>
+<tr><th>SystemRoot</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Windows"</span> (10)
+</pre>
+</td></tr>
+<tr><th>TEMP</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME\AppData\Local\Temp"</span> (36)
+</pre>
+</td></tr>
+<tr><th>TMP</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME\AppData\Local\Temp"</span> (36)
+</pre>
+</td></tr>
+<tr><th>USERDOMAIN</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"DESKTOP-CT2VIMB"</span> (15)
+</pre>
+</td></tr>
+<tr><th>USERDOMAIN_ROAMINGPROFILE</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"DESKTOP-CT2VIMB"</span> (15)
+</pre>
+</td></tr>
+<tr><th>USERNAME</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"NTB-HOME"</span> (8)
+</pre>
+</td></tr>
+<tr><th>USERPROFILE</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME"</span> (17)
+</pre>
+</td></tr>
+<tr><th>windir</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Windows"</span> (10)
+</pre>
+</td></tr>
+<tr><th>PHP_SELF</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME\Documents\sandbox\www\index.php"</span> (49)
+</pre>
+</td></tr>
+<tr><th>SCRIPT_NAME</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME\Documents\sandbox\www\index.php"</span> (49)
+</pre>
+</td></tr>
+<tr><th>SCRIPT_FILENAME</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME\Documents\sandbox\www\index.php"</span> (49)
+</pre>
+</td></tr>
+<tr><th>PATH_TRANSLATED</th><td><pre class="tracy-dump"><span class="tracy-dump-string">"C:\Users\NTB-HOME\Documents\sandbox\www\index.php"</span> (49)
+</pre>
+</td></tr>
+<tr><th>DOCUMENT_ROOT</th><td><pre class="tracy-dump"><span class="tracy-dump-string">""</span>
+</pre>
+</td></tr>
+<tr><th>REQUEST_TIME_FLOAT</th><td><pre class="tracy-dump"><span class="tracy-dump-number">1586955169.490024</span>
+</pre>
+</td></tr>
+<tr><th>REQUEST_TIME</th><td><pre class="tracy-dump"><span class="tracy-dump-number">1586955169</span>
+</pre>
+</td></tr>
+<tr><th>argv</th><td><pre class="tracy-dump" data-tracy-dump='[[0,"C:\\Users\\NTB-HOME\\Documents\\sandbox\\www\\index.php"]]'></pre>
+</td></tr>
+<tr><th>argc</th><td><pre class="tracy-dump"><span class="tracy-dump-number">1</span>
+</pre>
+</td></tr>
+			</table>
+			</div>
+
+
+			<h3><a data-tracy-ref="^+" class="tracy-toggle">$_SESSION</a></h3>
+			<div class="outer">
+						<p><i>empty</i></p>
+						</div>
+
+
+			
+
+			
+
+			<h3><a data-tracy-ref="^+" class="tracy-toggle tracy-collapsed">Configuration options</a></h3>
+			<div class="outer tracy-collapsed">
+			phpinfo()
+
+
+ _______________________________________________________________________
+
+
+Configuration
+
+bcmath
+
+BCMath support => enabled
+
+Directive => Local Value => Master Value
+bcmath.scale => 0 => 0
+
+bz2
+
+BZip2 Support => Enabled
+Stream Wrapper support => compress.bzip2://
+Stream Filter support => bzip2.decompress, bzip2.compress
+BZip2 Version => 1.0.8, 13-Jul-2019
+
+calendar
+
+Calendar support => enabled
+
+Core
+
+PHP Version => 7.4.3
+
+Directive => Local Value => Master Value
+allow_url_fopen => On => On
+allow_url_include => Off => Off
+arg_separator.input => & => &
+arg_separator.output => & => &
+auto_append_file => no value => no value
+auto_globals_jit => On => On
+auto_prepend_file => no value => no value
+browscap => C:\xampp\php\extras\browscap.ini => C:\xampp\php\extras\browscap.ini
+default_charset => UTF-8 => UTF-8
+default_mimetype => text/html => text/html
+disable_classes => no value => no value
+disable_functions => no value => no value
+display_errors => Off => STDOUT
+display_startup_errors => On => On
+doc_root => no value => no value
+docref_ext => no value => no value
+docref_root => no value => no value
+enable_dl => Off => Off
+enable_post_data_reading => On => On
+error_append_string => no value => no value
+error_log => C:\xampp\php\logs\php_error_log => C:\xampp\php\logs\php_error_log
+error_prepend_string => no value => no value
+error_reporting => 32767 => 22527
+expose_php => On => On
+extension_dir => C:\xampp\php\ext => C:\xampp\php\ext
+file_uploads => On => On
+hard_timeout => 2 => 2
+highlight.comment => <font style="color: #998; font-style: italic">#998; font-style: italic</font> => <font style="color: #FF8000">#FF8000</font>
+highlight.default => <font style="color: #000">#000</font> => <font style="color: #0000BB">#0000BB</font>
+highlight.html => <font style="color: #06B">#06B</font> => <font style="color: #000000">#000000</font>
+highlight.keyword => <font style="color: #D24; font-weight: bold">#D24; font-weight: bold</font> => <font style="color: #007700">#007700</font>
+highlight.string => <font style="color: #080">#080</font> => <font style="color: #DD0000">#DD0000</font>
+html_errors => Off => Off
+ignore_repeated_errors => Off => Off
+ignore_repeated_source => Off => Off
+ignore_user_abort => Off => Off
+implicit_flush => On => On
+include_path => C:\xampp\php\PEAR => C:\xampp\php\PEAR
+input_encoding => no value => no value
+internal_encoding => no value => no value
+log_errors => Off => On
+log_errors_max_len => 1024 => 1024
+mail.add_x_header => Off => Off
+mail.force_extra_parameters => no value => no value
+mail.log => no value => no value
+max_execution_time => 0 => 0
+max_file_uploads => 20 => 20
+max_input_nesting_level => 64 => 64
+max_input_time => -1 => -1
+max_input_vars => 1000 => 1000
+memory_limit => 512M => 512M
+open_basedir => no value => no value
+output_buffering => 0 => 0
+output_encoding => no value => no value
+output_handler => no value => no value
+post_max_size => 40M => 40M
+precision => 14 => 14
+realpath_cache_size => 4096K => 4096K
+realpath_cache_ttl => 120 => 120
+register_argc_argv => On => On
+report_memleaks => On => On
+report_zend_debug => Off => Off
+request_order => GP => GP
+sendmail_from => no value => no value
+sendmail_path => no value => no value
+serialize_precision => -1 => -1
+short_open_tag => Off => Off
+SMTP => localhost => localhost
+smtp_port => 25 => 25
+sys_temp_dir => no value => no value
+syslog.facility => LOG_USER => LOG_USER
+syslog.filter => no-ctrl => no-ctrl
+syslog.ident => php => php
+track_errors => Off => Off
+unserialize_callback_func => no value => no value
+upload_max_filesize => 40M => 40M
+upload_tmp_dir => C:\xampp\tmp => C:\xampp\tmp
+user_dir => no value => no value
+user_ini.cache_ttl => 300 => 300
+user_ini.filename => .user.ini => .user.ini
+variables_order => GPCS => GPCS
+windows.show_crt_warning => Off => Off
+xmlrpc_error_number => 0 => 0
+xmlrpc_errors => Off => Off
+zend.assertions => 1 => 1
+zend.detect_unicode => On => On
+zend.enable_gc => On => On
+zend.exception_ignore_args => Off => Off
+zend.multibyte => Off => Off
+zend.script_encoding => no value => no value
+
+ctype
+
+ctype functions => enabled
+
+curl
+
+cURL support => enabled
+cURL Information => 7.68.0
+Age => 5
+Features
+AsynchDNS => Yes
+CharConv => No
+Debug => No
+GSS-Negotiate => No
+IDN => Yes
+IPv6 => Yes
+krb4 => No
+Largefile => Yes
+libz => Yes
+NTLM => Yes
+NTLMWB => No
+SPNEGO => Yes
+SSL => Yes
+SSPI => Yes
+TLS-SRP => No
+HTTP2 => Yes
+GSSAPI => No
+KERBEROS5 => Yes
+UNIX_SOCKETS => Yes
+PSL => No
+HTTPS_PROXY => Yes
+MULTI_SSL => No
+BROTLI => No
+Protocols => dict, file, ftp, ftps, gopher, http, https, imap, imaps, ldap, ldaps, pop3, pop3s, rtsp, scp, sftp, smb, smbs, smtp, smtps, telnet, tftp
+Host => x86_64-pc-win32
+SSL Version => OpenSSL/1.1.1d
+ZLib Version => 1.2.11
+libSSH Version => libssh2/1.9.0
+
+Directive => Local Value => Master Value
+curl.cainfo => C:\xampp\apache\bin\curl-ca-bundle.crt => C:\xampp\apache\bin\curl-ca-bundle.crt
+
+date
+
+date/time support => enabled
+timelib version => 2018.03
+"Olson" Timezone Database Version => 2019.3
+Timezone Database => internal
+Default timezone => Europe/Prague
+
+Directive => Local Value => Master Value
+date.default_latitude => 31.7667 => 31.7667
+date.default_longitude => 35.2333 => 35.2333
+date.sunrise_zenith => 90.583333 => 90.583333
+date.sunset_zenith => 90.583333 => 90.583333
+date.timezone => Europe/Prague => Europe/Berlin
+
+dom
+
+DOM/XML => enabled
+DOM/XML API Version => 20031129
+libxml Version => 2.9.10
+HTML Support => enabled
+XPath Support => enabled
+XPointer Support => enabled
+Schema Support => enabled
+RelaxNG Support => enabled
+
+exif
+
+EXIF Support => enabled
+Supported EXIF Version => 0220
+Supported filetypes => JPEG, TIFF
+Multibyte decoding support using mbstring => enabled
+Extended EXIF tag formats => Canon, Casio, Fujifilm, Nikon, Olympus, Samsung, Panasonic, DJI, Sony, Pentax, Minolta, Sigma, Foveon, Kyocera, Ricoh, AGFA, Epson
+
+Directive => Local Value => Master Value
+exif.decode_jis_intel => JIS => JIS
+exif.decode_jis_motorola => JIS => JIS
+exif.decode_unicode_intel => UCS-2LE => UCS-2LE
+exif.decode_unicode_motorola => UCS-2BE => UCS-2BE
+exif.encode_jis => no value => no value
+exif.encode_unicode => ISO-8859-15 => ISO-8859-15
+
+fileinfo
+
+fileinfo support => enabled
+libmagic => 537
+
+filter
+
+Input Validation and Filtering => enabled
+
+Directive => Local Value => Master Value
+filter.default => unsafe_raw => unsafe_raw
+filter.default_flags => no value => no value
+
+ftp
+
+FTP support => enabled
+FTPS support => enabled
+
+gd
+
+GD Support => enabled
+GD Version => bundled (2.1.0 compatible)
+FreeType Support => enabled
+FreeType Linkage => with freetype
+FreeType Version => 2.9.1
+GIF Read Support => enabled
+GIF Create Support => enabled
+JPEG Support => enabled
+libJPEG Version => 9 compatible
+PNG Support => enabled
+libPNG Version => 1.6.34
+WBMP Support => enabled
+XPM Support => enabled
+libXpm Version => 30512
+XBM Support => enabled
+WebP Support => enabled
+BMP Support => enabled
+TGA Read Support => enabled
+
+Directive => Local Value => Master Value
+gd.jpeg_ignore_warning => 1 => 1
+
+gettext
+
+GetText Support => enabled
+
+hash
+
+hash support => enabled
+Hashing Engines => md2 md4 md5 sha1 sha224 sha256 sha384 sha512/224 sha512/256 sha512 sha3-224 sha3-256 sha3-384 sha3-512 ripemd128 ripemd160 ripemd256 ripemd320 whirlpool tiger128,3 tiger160,3 tiger192,3 tiger128,4 tiger160,4 tiger192,4 snefru snefru256 gost gost-crypto adler32 crc32 crc32b crc32c fnv132 fnv1a32 fnv164 fnv1a64 joaat haval128,3 haval160,3 haval192,3 haval224,3 haval256,3 haval128,4 haval160,4 haval192,4 haval224,4 haval256,4 haval128,5 haval160,5 haval192,5 haval224,5 haval256,5 
+
+MHASH support => Enabled
+MHASH API Version => Emulated Support
+
+iconv
+
+iconv support => enabled
+iconv implementation => "libiconv"
+iconv library version => 1.16
+
+Directive => Local Value => Master Value
+iconv.input_encoding => no value => no value
+iconv.internal_encoding => no value => no value
+iconv.output_encoding => no value => no value
+
+json
+
+json support => enabled
+
+libxml
+
+libXML support => active
+libXML Compiled Version => 2.9.10
+libXML Loaded Version => 20910
+libXML streams => enabled
+
+mbstring
+
+Multibyte Support => enabled
+Multibyte string engine => libmbfl
+HTTP input encoding translation => disabled
+libmbfl version => 1.3.2
+
+mbstring extension makes use of "streamable kanji code filter and converter", which is distributed under the GNU Lesser General Public License version 2.1.
+
+Multibyte (japanese) regex support => enabled
+Multibyte regex (oniguruma) version => 6.9.4
+
+Directive => Local Value => Master Value
+mbstring.detect_order => no value => no value
+mbstring.encoding_translation => Off => Off
+mbstring.func_overload => 0 => 0
+mbstring.http_input => no value => no value
+mbstring.http_output => no value => no value
+mbstring.http_output_conv_mimetypes => ^(text/|application/xhtml\+xml) => ^(text/|application/xhtml\+xml)
+mbstring.internal_encoding => no value => no value
+mbstring.language => neutral => neutral
+mbstring.regex_retry_limit => 1000000 => 1000000
+mbstring.regex_stack_limit => 100000 => 100000
+mbstring.strict_detection => Off => Off
+mbstring.substitute_character => no value => no value
+
+mysqli
+
+MysqlI Support => enabled
+Client API library version => mysqlnd 7.4.3
+Active Persistent Links => 0
+Inactive Persistent Links => 0
+Active Links => 0
+
+Directive => Local Value => Master Value
+mysqli.allow_local_infile => Off => Off
+mysqli.allow_persistent => On => On
+mysqli.default_host => no value => no value
+mysqli.default_port => 3306 => 3306
+mysqli.default_pw => no value => no value
+mysqli.default_socket => no value => no value
+mysqli.default_user => no value => no value
+mysqli.max_links => Unlimited => Unlimited
+mysqli.max_persistent => Unlimited => Unlimited
+mysqli.reconnect => Off => Off
+mysqli.rollback_on_cached_plink => Off => Off
+
+mysqlnd
+
+mysqlnd => enabled
+Version => mysqlnd 7.4.3
+Compression => supported
+core SSL => supported
+extended SSL => not supported
+Command buffer size => 4096
+Read buffer size => 32768
+Read timeout => 86400
+Collecting statistics => Yes
+Collecting memory statistics => Yes
+Tracing => n/a
+Loaded plugins => mysqlnd,debug_trace,auth_plugin_mysql_native_password,auth_plugin_mysql_clear_password
+API Extensions => mysqli,pdo_mysql
+
+openssl
+
+OpenSSL support => enabled
+OpenSSL Library Version => OpenSSL 1.1.1d  10 Sep 2019
+OpenSSL Header Version => OpenSSL 1.1.1d  10 Sep 2019
+Openssl default config => C:\Program Files\Common Files\SSL/openssl.cnf
+
+Directive => Local Value => Master Value
+openssl.cafile => C:\xampp\apache\bin\curl-ca-bundle.crt => C:\xampp\apache\bin\curl-ca-bundle.crt
+openssl.capath => no value => no value
+
+pcre
+
+PCRE (Perl Compatible Regular Expressions) Support => enabled
+PCRE Library Version => 10.33 2019-04-16
+PCRE Unicode Version => 11.0.0
+PCRE JIT Support => enabled
+PCRE JIT Target => x86 64bit (little endian + unaligned)
+
+Directive => Local Value => Master Value
+pcre.backtrack_limit => 1000000 => 1000000
+pcre.jit => 1 => 1
+pcre.recursion_limit => 100000 => 100000
+
+PDO
+
+PDO support => enabled
+PDO drivers => mysql, sqlite
+
+pdo_mysql
+
+PDO Driver for MySQL => enabled
+Client API version => mysqlnd 7.4.3
+
+pdo_sqlite
+
+PDO Driver for SQLite 3.x => enabled
+SQLite Library => 3.31.1
+
+Phar
+
+Phar: PHP Archive support => enabled
+Phar API version => 1.1.1
+Phar-based phar archives => enabled
+Tar-based phar archives => enabled
+ZIP-based phar archives => enabled
+gzip compression => enabled
+bzip2 compression => enabled
+OpenSSL support => enabled
+
+
+Phar based on pear/PHP_Archive, original concept by Davey Shafik.
+Phar fully realized by Gregory Beaver and Marcus Boerger.
+Portions of tar implementation Copyright (c) 2003-2009 Tim Kientzle.
+Directive => Local Value => Master Value
+phar.cache_list => no value => no value
+phar.readonly => On => On
+phar.require_hash => On => On
+
+readline
+
+Readline Support => enabled
+Readline library => WinEditLine
+
+Directive => Local Value => Master Value
+cli.pager => no value => no value
+cli.prompt => \b \>  => \b \> 
+
+Reflection
+
+Reflection => enabled
+
+session
+
+Session Support => enabled
+Registered save handlers => files user 
+Registered serializer handlers => php_serialize php php_binary 
+
+Directive => Local Value => Master Value
+session.auto_start => Off => Off
+session.cache_expire => 180 => 180
+session.cache_limiter => nocache => nocache
+session.cookie_domain => no value => no value
+session.cookie_httponly => no value => no value
+session.cookie_lifetime => 0 => 0
+session.cookie_path => / => /
+session.cookie_samesite => no value => no value
+session.cookie_secure => 0 => 0
+session.gc_divisor => 1000 => 1000
+session.gc_maxlifetime => 1440 => 1440
+session.gc_probability => 1 => 1
+session.lazy_write => On => On
+session.name => PHPSESSID => PHPSESSID
+session.referer_check => no value => no value
+session.save_handler => files => files
+session.save_path => C:\xampp\tmp => C:\xampp\tmp
+session.serialize_handler => php => php
+session.sid_bits_per_character => 5 => 5
+session.sid_length => 26 => 26
+session.upload_progress.cleanup => On => On
+session.upload_progress.enabled => On => On
+session.upload_progress.freq => 1% => 1%
+session.upload_progress.min_freq => 1 => 1
+session.upload_progress.name => PHP_SESSION_UPLOAD_PROGRESS => PHP_SESSION_UPLOAD_PROGRESS
+session.upload_progress.prefix => upload_progress_ => upload_progress_
+session.use_cookies => 1 => 1
+session.use_only_cookies => 1 => 1
+session.use_strict_mode => 0 => 0
+session.use_trans_sid => 0 => 0
+
+SimpleXML
+
+SimpleXML support => enabled
+Schema support => enabled
+
+SPL
+
+SPL support => enabled
+Interfaces => OuterIterator, RecursiveIterator, SeekableIterator, SplObserver, SplSubject
+Classes => AppendIterator, ArrayIterator, ArrayObject, BadFunctionCallException, BadMethodCallException, CachingIterator, CallbackFilterIterator, DirectoryIterator, DomainException, EmptyIterator, FilesystemIterator, FilterIterator, GlobIterator, InfiniteIterator, InvalidArgumentException, IteratorIterator, LengthException, LimitIterator, LogicException, MultipleIterator, NoRewindIterator, OutOfBoundsException, OutOfRangeException, OverflowException, ParentIterator, RangeException, RecursiveArrayIterator, RecursiveCachingIterator, RecursiveCallbackFilterIterator, RecursiveDirectoryIterator, RecursiveFilterIterator, RecursiveIteratorIterator, RecursiveRegexIterator, RecursiveTreeIterator, RegexIterator, RuntimeException, SplDoublyLinkedList, SplFileInfo, SplFileObject, SplFixedArray, SplHeap, SplMinHeap, SplMaxHeap, SplObjectStorage, SplPriorityQueue, SplQueue, SplStack, SplTempFileObject, UnderflowException, UnexpectedValueException
+
+standard
+
+Dynamic Library Support => enabled
+Internal Sendmail Support for Windows => enabled
+
+Directive => Local Value => Master Value
+assert.active => 1 => 1
+assert.bail => 0 => 0
+assert.callback => no value => no value
+assert.exception => 0 => 0
+assert.quiet_eval => 0 => 0
+assert.warning => 1 => 1
+auto_detect_line_endings => 0 => 0
+default_socket_timeout => 60 => 60
+from => no value => no value
+session.trans_sid_hosts => no value => no value
+session.trans_sid_tags => a=href,area=href,frame=src,form= => a=href,area=href,frame=src,form=
+unserialize_max_depth => 4096 => 4096
+url_rewriter.hosts => no value => no value
+url_rewriter.tags => form= => form=
+user_agent => no value => no value
+
+tokenizer
+
+Tokenizer Support => enabled
+
+xml
+
+XML Support => active
+XML Namespace Support => active
+libxml2 Version => 2.9.10
+
+xmlreader
+
+XMLReader => enabled
+
+xmlwriter
+
+XMLWriter => enabled
+
+zip
+
+Zip => enabled
+Zip version => 1.15.6
+Libzip headers version => 1.4.0
+Libzip library version => 1.4.0
+
+zlib
+
+ZLib Support => enabled
+Stream Wrapper => compress.zlib://
+Stream Filter => zlib.inflate, zlib.deflate
+Compiled Version => 1.2.11
+Linked Version => 1.2.11
+
+Directive => Local Value => Master Value
+zlib.output_compression => Off => Off
+zlib.output_compression_level => -1 => -1
+zlib.output_handler => no value => no value
+
+Additional Modules
+
+Module Name
+			</div>
+		</div></div>
+
+
+		<div class="panel">
+		<h2><a data-tracy-ref="^+" class="tracy-toggle tracy-collapsed">HTTP request</a></h2>
+
+		<div class="tracy-collapsed inner">
+			
+
+						<h3>$_GET</h3>
+						<p><i>empty</i></p>
+									<h3>$_POST</h3>
+						<p><i>empty</i></p>
+									<h3>$_COOKIE</h3>
+						<p><i>empty</i></p>
+								</div></div>
+
+
+		<div class="panel">
+		<h2><a data-tracy-ref="^+" class="tracy-toggle tracy-collapsed">HTTP response</a></h2>
+
+		<div class="tracy-collapsed inner">
+			<h3>Headers</h3>
+						<p><i>no headers</i></p>
+					</div></div>
+
+
+		
+
+		<ul>
+			<li><b><a href="https://nette.org/make-donation?to=tracy" target="_blank" rel="noreferrer noopener">Please support Tracy via a donation 💙️</a></b></li>
+			<li>Report generated at 2020/04/15 14:52:53</li>
+			<li>CLI (PID: 8584): C:\Users\NTB-HOME\Documents\sandbox\www\index.php</li>
+			<li>PHP 7.4.3</li><li>Tracy 2.5.8</li>		</ul>
+
+		<div id="tracy-bs-logo"><a href="https://tracy.nette.org" rel="noreferrer"></a></div>
+	</div>
+</div>
+
+<script>
+(function() {
+	/**
+ * This file is part of the Tracy (https://tracy.nette.org)
+ */
+
+(function() {
+
+	// enables <a class="tracy-toggle" href="#"> or <span data-tracy-ref="#"> toggling
+	class Toggle
+	{
+		static init() {
+			document.documentElement.addEventListener('click', (e) => {
+				let el = e.target.closest('.tracy-toggle');
+				if (el && !e.shiftKey && !e.altKey && !e.ctrlKey && !e.metaKey) {
+					Toggle.toggle(el);
+				}
+			});
+			Toggle.init = function() {};
+		}
+
+
+		// changes element visibility
+		static toggle(el, show) {
+			let collapsed = el.classList.contains('tracy-collapsed'),
+				ref = el.getAttribute('data-tracy-ref') || el.getAttribute('href', 2),
+				dest = el;
+
+			if (typeof show === 'undefined') {
+				show = collapsed;
+			} else if (!show === collapsed) {
+				return;
+			}
+
+			if (!ref || ref === '#') {
+				ref = '+';
+			} else if (ref.substr(0, 1) === '#') {
+				dest = document;
+			}
+			ref = ref.match(/(\^\s*([^+\s]*)\s*)?(\+\s*(\S*)\s*)?(.*)/);
+			dest = ref[1] ? dest.parentNode : dest;
+			dest = ref[2] ? dest.closest(ref[2]) : dest;
+			dest = ref[3] ? Toggle.nextElement(dest.nextElementSibling, ref[4]) : dest;
+			dest = ref[5] ? dest.querySelector(ref[5]) : dest;
+
+			el.classList.toggle('tracy-collapsed', !show);
+			dest.classList.toggle('tracy-collapsed', !show);
+
+			let toggleEvent;
+			if (typeof window.Event === 'function') {
+				toggleEvent = new Event('tracy-toggle', {bubbles: true});
+			} else {
+				toggleEvent = document.createEvent('Event');
+				toggleEvent.initEvent('tracy-toggle', true, false);
+			}
+			el.dispatchEvent(toggleEvent);
+		}
+
+
+		// save & restore toggles
+		static persist(baseEl, restore) {
+			let saved = [];
+			baseEl.addEventListener('tracy-toggle', (e) => {
+				if (saved.indexOf(e.target) < 0) {
+					saved.push(e.target);
+				}
+			});
+
+			let toggles = JSON.parse(sessionStorage.getItem('tracy-toggles-' + baseEl.id));
+			if (toggles && restore !== false) {
+				toggles.forEach((item) => {
+					let el = baseEl;
+					for (let i in item.path) {
+						if (!(el = el.children[item.path[i]])) {
+							return;
+						}
+					}
+					if (el.textContent === item.text) {
+						Toggle.toggle(el, item.show);
+					}
+				});
+			}
+
+			window.addEventListener('unload', () => {
+				toggles = [].map.call(saved, (el) => {
+					let item = {path: [], text: el.textContent, show: !el.classList.contains('tracy-collapsed')};
+					do {
+						item.path.unshift([].indexOf.call(el.parentNode.children, el));
+						el = el.parentNode;
+					} while (el && el !== baseEl);
+					return item;
+				});
+				sessionStorage.setItem('tracy-toggles-' + baseEl.id, JSON.stringify(toggles));
+			});
+		}
+
+
+		// finds next matching element
+		static nextElement(el, selector) {
+			while (el && selector && !el.matches(selector)) {
+				el = el.nextElementSibling;
+			}
+			return el;
+		}
+	}
+
+
+	Tracy = window.Tracy || {};
+	Tracy.Toggle = Tracy.Toggle || Toggle;
+})();
+	/**
+ * This file is part of the Tracy (https://tracy.nette.org)
+ */
+
+(function() {
+	const
+		COLLAPSE_COUNT = 7,
+		COLLAPSE_COUNT_TOP = 14;
+
+	class Dumper
+	{
+		static init(repository, context) {
+			if (repository) {
+				[].forEach.call((context || document).querySelectorAll('.tracy-dump[data-tracy-dump]'), (el) => {
+					try {
+						let built = build(JSON.parse(el.getAttribute('data-tracy-dump')), repository, el.classList.contains('tracy-collapsed'));
+						el.insertBefore(built, el.lastChild);
+						el.classList.remove('tracy-collapsed');
+						el.removeAttribute('data-tracy-dump');
+					} catch (e) {
+						if (!(e instanceof UnknownEntityException)) {
+							throw e;
+						}
+					}
+				});
+			}
+
+			if (Dumper.inited) {
+				return;
+			}
+			Dumper.inited = true;
+
+			// enables <span data-tracy-href=""> & ctrl key
+			document.documentElement.addEventListener('click', (e) => {
+				let el;
+				if (e.ctrlKey && (el = e.target.closest('[data-tracy-href]'))) {
+					location.href = el.getAttribute('data-tracy-href');
+					return false;
+				}
+			});
+
+			Tracy.Toggle.init();
+		}
+	}
+
+
+	function build(data, repository, collapsed, parentIds) {
+		let type = data === null ? 'null' : typeof data,
+			collapseCount = collapsed === null ? COLLAPSE_COUNT : COLLAPSE_COUNT_TOP;
+
+		if (type === 'null' || type === 'string' || type === 'number' || type === 'boolean') {
+			data = type === 'string' ? '"' + data + '"' : (data + '');
+			return createEl(null, null, [
+				createEl(
+					'span',
+					{'class': 'tracy-dump-' + type.replace('ean', '')},
+					[data + '\n']
+				)
+			]);
+
+		} else if (Array.isArray(data)) {
+			return buildStruct(
+				[
+					createEl('span', {'class': 'tracy-dump-array'}, ['array']),
+					' (' + (data[0] && data.length || '') + ')'
+				],
+				' [ ... ]',
+				data[0] === null ? null : data,
+				collapsed === true || data.length >= collapseCount,
+				repository,
+				parentIds
+			);
+
+		} else if (type === 'object' && data.number) {
+			return createEl(null, null, [
+				createEl('span', {'class': 'tracy-dump-number'}, [data.number + '\n'])
+			]);
+
+		} else if (type === 'object' && data.type) {
+			return createEl(null, null, [
+				createEl('span', null, [data.type + '\n'])
+			]);
+
+		} else if (type === 'object') {
+			let id = data.object || data.resource,
+				object = repository[id];
+
+			if (!object) {
+				throw new UnknownEntityException;
+			}
+			parentIds = parentIds || [];
+			let recursive = parentIds.indexOf(id) > -1;
+			parentIds.push(id);
+
+			return buildStruct(
+				[
+					createEl('span', {
+						'class': data.object ? 'tracy-dump-object' : 'tracy-dump-resource',
+						title: object.editor ? 'Declared in file ' + object.editor.file + ' on line ' + object.editor.line : null,
+						'data-tracy-href': object.editor ? object.editor.url : null
+					}, [object.name]),
+					' ',
+					createEl('span', {'class': 'tracy-dump-hash'}, ['#' + id])
+				],
+				' { ... }',
+				object.items,
+				collapsed === true || recursive || (object.items && object.items.length >= collapseCount),
+				repository,
+				parentIds
+			);
+		}
+	}
+
+
+	function buildStruct(span, ellipsis, items, collapsed, repository, parentIds) {
+		let res, toggle, div, handler;
+
+		if (!items || !items.length) {
+			span.push(!items || items.length ? ellipsis + '\n' : '\n');
+			return createEl(null, null, span);
+		}
+
+		res = createEl(null, null, [
+			toggle = createEl('span', {'class': collapsed ? 'tracy-toggle tracy-collapsed' : 'tracy-toggle'}, span),
+			'\n',
+			div = createEl('div', {'class': collapsed ? 'tracy-collapsed' : ''})
+		]);
+
+		if (collapsed) {
+			toggle.addEventListener('tracy-toggle', handler = function() {
+				toggle.removeEventListener('tracy-toggle', handler);
+				createItems(div, items, repository, parentIds);
+			});
+		} else {
+			createItems(div, items, repository, parentIds);
+		}
+		return res;
+	}
+
+
+	function createEl(el, attrs, content) {
+		if (!(el instanceof Node)) {
+			el = el ? document.createElement(el) : document.createDocumentFragment();
+		}
+		for (let id in attrs || {}) {
+			if (attrs[id] !== null) {
+				el.setAttribute(id, attrs[id]);
+			}
+		}
+		content = content || [];
+		for (let id = 0; id < content.length; id++) {
+			let child = content[id];
+			if (child !== null) {
+				el.appendChild(child instanceof Node ? child : document.createTextNode(child));
+			}
+		}
+		return el;
+	}
+
+
+	function createItems(el, items, repository, parentIds) {
+		for (let i = 0; i < items.length; i++) {
+			let vis = items[i][2];
+			createEl(el, null, [
+				createEl('span', {'class': 'tracy-dump-key'}, [items[i][0]]),
+				vis ? ' ' : null,
+				vis ? createEl('span', {'class': 'tracy-dump-visibility'}, [vis === 1 ? 'protected' : 'private']) : null,
+				' => ',
+				build(items[i][1], repository, null, parentIds)
+			]);
+		}
+	}
+
+
+	function UnknownEntityException() {}
+
+
+	Tracy = window.Tracy || {};
+	Tracy.Dumper = Dumper;
+})();
+	/**
+ * This file is part of the Tracy (https://tracy.nette.org)
+ */
+
+(function(){
+	class BlueScreen
+	{
+		static init(ajax) {
+			let blueScreen = document.getElementById('tracy-bs');
+			let styles = [];
+
+			for (let i = 0; i < document.styleSheets.length; i++) {
+				let style = document.styleSheets[i];
+				if (!style.ownerNode.classList.contains('tracy-debug')) {
+					style.oldDisabled = style.disabled;
+					style.disabled = true;
+					styles.push(style);
+				}
+			}
+
+			document.getElementById('tracy-bs-toggle').addEventListener('tracy-toggle', function() {
+				let collapsed = this.classList.contains('tracy-collapsed');
+				for (let i = 0; i < styles.length; i++) {
+					styles[i].disabled = collapsed ? styles[i].oldDisabled : true;
+				}
+			});
+
+			if (!ajax) {
+				document.body.appendChild(blueScreen);
+				let id = location.href + document.getElementById('tracy-bs-error').textContent;
+				Tracy.Toggle.persist(blueScreen, sessionStorage.getItem('tracy-toggles-bskey') === id);
+				sessionStorage.setItem('tracy-toggles-bskey', id);
+			}
+
+			if (inited) {
+				return;
+			}
+			inited = true;
+
+			// enables toggling via ESC
+			document.addEventListener('keyup', (e) => {
+				if (e.keyCode === 27 && !e.shiftKey && !e.altKey && !e.ctrlKey && !e.metaKey) { // ESC
+					Tracy.Toggle.toggle(document.getElementById('tracy-bs-toggle'));
+				}
+			});
+		}
+
+
+		static loadAjax(content, dumps) {
+			let ajaxBs = document.getElementById('tracy-bs');
+			if (ajaxBs) {
+				ajaxBs.parentNode.removeChild(ajaxBs);
+			}
+			document.body.insertAdjacentHTML('beforeend', content);
+			ajaxBs = document.getElementById('tracy-bs');
+			Tracy.Dumper.init(dumps, ajaxBs);
+			BlueScreen.init(true);
+			window.scrollTo(0, 0);
+		}
+	}
+
+	let inited;
+
+
+	Tracy = window.Tracy || {};
+	Tracy.BlueScreen = BlueScreen;
+})();
+})();
+</script>
+<script>
+Tracy && Tracy.Dumper.init({"01":{"name":"Nette\\Application\\Request","editor":{"file":"C:\\Users\\NTB-HOME\\Documents\\sandbox\\vendor\\nette\\application\\src\\Application\\Request.php","line":22,"url":"editor:\/\/open\/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CRequest.php&line=22&search=&replace="},"items":[["method","GET",2],["flags",[["secured",false]],2],["name","Homepage",2],["params",[["action","default"]],2],["post",[],2],["files",[],2]]},"02":{"name":"Nette\\Application\\Request","editor":{"file":"C:\\Users\\NTB-HOME\\Documents\\sandbox\\vendor\\nette\\application\\src\\Application\\Request.php","line":22,"url":"editor:\/\/open\/?file=C%3A%5CUsers%5CNTB-HOME%5CDocuments%5Csandbox%5Cvendor%5Cnette%5Capplication%5Csrc%5CApplication%5CRequest.php&line=22&search=&replace="},"items":[["method","GET",2],["flags",[["secured",false]],2],["name","Homepage",2],["params",[["action","default"]],2],["post",[],2],["files",[],2]]},"03":{"name":"Nette\\Application\\Request","editor":null,"items":[["method","FORWARD",2],["flags",[],2],["name","Error",2],["params",[["exception",{"object":"04"}],["request",{"object":"02"}]],2],["post",[],2],["files",[],2]]},"04":{"name":"Nette\\InvalidArgumentException","editor":null,"items":[["message","Malformed or unsupported URI 'http:\/\/\/'.",1],["string","",2],["code",0,1],["file","C:\\Users\\NTB-HOME\\Documents\\sandbox\\vendor\\nette\\http\\src\\Http\\Url.php",1],["line",95,1],["trace",[null],2],["previous",null,2]]},"05":{"name":"App\\Presenters\\ErrorPresenter","editor":null,"items":[["logger",{"object":"06"},2]]},"06":{"name":"Tracy\\Logger","editor":null,"items":[["directory","C:\\Users\\NTB-HOME\\Documents\\sandbox\\app\/..\/log",0],["email",null,0],["fromEmail",null,0],["emailSnooze","2 days",0],["mailer",[[0,{"object":"07"}],[1,"send"]],0],["blueScreen",{"object":"09"},2]]},"07":{"name":"Tracy\\Bridges\\Nette\\MailSender","editor":null,"items":[["mailer",{"object":"08"},2],["fromEmail",null,2]]},"08":{"name":"Nette\\Mail\\SendmailMailer","editor":null},"09":{"name":"Tracy\\BlueScreen","editor":null,"items":[["info",[[0,"PHP 7.4.3"],[1,null],[2,"Tracy 2.5.8"]],0],["collapsePaths",[[0,"C:\/Users\/NTB-HOME\/Documents\/sandbox\/vendor"]],0],["maxDepth",3,0],["maxLength",150,0],["keysToHide",[[0,"password"],[1,"passwd"],[2,"pass"],[3,"pwd"],[4,"creditcard"],[5,"credit card"],[6,"cc"],[7,"pin"]],0],["panels",[[0,[null]],[1,[null]],[2,{"object":"010"}],[3,"Nette\\Bridges\\DatabaseTracy\\ConnectionPanel::renderException"]],2],["actions",[[0,[null]],[1,[null]]],2]]},"010":{"name":"Closure","editor":null}});
+</script>
+<script>
+Tracy && Tracy.BlueScreen.init();
+</script>
+</body>
+</html>

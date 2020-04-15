@@ -1,0 +1,13 @@
+{block content}
+
+{foreach $params as $keys => $item}
+    {if is_array($item)}
+
+        {foreach $item as $key =>$item}
+            {$key}=> {$item}<br>
+        {/foreach}
+    {else}
+        {$keys}=> {$item}<br>
+
+    {/if}
+{/foreach}
